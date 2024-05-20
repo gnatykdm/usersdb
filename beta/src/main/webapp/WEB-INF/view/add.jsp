@@ -32,7 +32,7 @@
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #313d4b; /* Heading color */
+            color: #313d4b;
         }
         form {
             display: flex;
@@ -40,7 +40,7 @@
         }
         label {
             margin-bottom: 8px;
-            color: #313d4b; /* Label color */
+            color: #313d4b;
         }
         input[type="text"],
         input[type="email"],
@@ -55,19 +55,19 @@
         input[type="email"]:focus,
         input[type="password"]:focus {
             outline: none;
-            border-color: #007bff; /* Border color on focus */
+            border-color: #007bff;
         }
         button[type="submit"] {
             padding: 12px 20px;
-            background-color: #007bff; /* Button background color */
-            color: #fff; /* Button text color */
+            background-color: #007bff;
+            color: #fff;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
         button[type="submit"]:hover {
-            background-color: #0056b3; /* Button background color on hover */
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -75,7 +75,7 @@
 <div class="container">
     <h2>Add User</h2>
     <%--@elvariable id="user" type="com.beta.model.entity.UserEntity"--%>
-    <form:form action="/result" method="get" modelAttribute="user">
+    <form:form action="/result" method="post" modelAttribute="user">
         <label for="userName">Name:</label>
         <form:input path="userName" id="userName" placeholder="Enter your name"/>
         <label for="userEmail">Email:</label>

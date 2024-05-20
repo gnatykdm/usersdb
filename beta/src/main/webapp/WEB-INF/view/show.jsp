@@ -32,7 +32,7 @@
         h2 {
             text-align: center;
             margin-bottom: 30px;
-            color: #313d4b; /* Heading color */
+            color: #313d4b;
         }
         table {
             width: 100%;
@@ -45,8 +45,8 @@
             text-align: left;
         }
         th {
-            background-color: #c1ff72; /* Header background color */
-            color: #313d4b; /* Header text color */
+            background-color: #c1ff72;
+            color: #313d4b;
         }
         tbody tr:nth-child(even) {
             background-color: #f9f9f9;

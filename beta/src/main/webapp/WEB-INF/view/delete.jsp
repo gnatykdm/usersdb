@@ -32,7 +32,7 @@
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #313d4b; /* Heading color */
+            color: #313d4b;
         }
         form {
             display: flex;
@@ -41,7 +41,7 @@
         }
         label {
             margin-bottom: 8px;
-            color: #313d4b; /* Label color */
+            color: #313d4b;
         }
         input[type="text"] {
             padding: 10px;
@@ -52,26 +52,26 @@
         }
         input[type="text"]:focus {
             outline: none;
-            border-color: #007bff; /* Border color on focus */
+            border-color: #007bff;
         }
         button[type="submit"] {
             padding: 12px 20px;
-            background-color: #007bff; /* Button background color */
-            color: #fff; /* Button text color */
+            background-color: #007bff;
+            color: #fff;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
         button[type="submit"]:hover {
-            background-color: #0056b3; /* Button background color on hover */
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 <div class="container">
     <h2>Drop User</h2>
-    <form action="/deleteresult" method="get">
+    <form action="/deleteresult" method="post">
         <label for="userId">ID:</label>
         <input type="text" id="userId" name="userId" required>
         <button type="submit">Drop User</button>

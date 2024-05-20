@@ -31,27 +31,27 @@
         }
         h1 {
             margin-top: 0;
-            color: #007bff; /* Heading color */
+            color: #007bff;
         }
         .result-info {
             margin-bottom: 20px;
         }
         .result-info p {
             margin: 10px 0;
-            color: #333; /* Text color */
+            color: #333;
         }
         .back-link {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
-            background-color: #007bff; /* Button background color */
-            color: #fff; /* Button text color */
+            background-color: #007bff;
+            color: #fff;
             text-decoration: none;
             border-radius: 4px;
             transition: background-color 0.3s ease;
         }
         .back-link:hover {
-            background-color: #0056b3; /* Button background color on hover */
+            background-color: #0056b3;
         }
     </style>
 </head>

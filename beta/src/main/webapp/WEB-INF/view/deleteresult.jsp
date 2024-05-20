@@ -14,7 +14,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 20px; /* Added padding */
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -22,7 +22,7 @@
         }
         .container {
             background-color: #fff;
-            padding: 40px; /* Increased padding */
+            padding: 40px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             text-align: center;
@@ -30,7 +30,7 @@
         h2 {
             color: #333;
             margin-bottom: 20px;
-            font-size: 24px; /* Increased font size */
+            font-size: 24px;
         }
         a {
             display: inline-block;
@@ -38,11 +38,11 @@
             text-decoration: none;
             color: #007BFF;
             font-weight: bold;
-            transition: color 0.3s; /* Added transition */
+            transition: color 0.3s;
         }
         a:hover {
             text-decoration: underline;
-            color: #0056b3; /* Changed hover color */
+            color: #0056b3;
         }
     </style>
 </head>
